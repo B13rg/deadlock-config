@@ -1,0 +1,22 @@
+version: '3'
+
+# Taskfile.dev
+
+
+vars:
+  DL_FOLDER: '/mnt/volute/SteamLibrary/steamapps/common/Deadlock'
+
+
+tasks:
+
+  get_all_vars:
+    cmds:
+    - "echo 'Run in game: cvarlist'"
+
+  create_tree:
+    cmds:
+      - tree -a --prune -p -h -D -o deadlock_file_tree.txt {{.DL_FOLDER}}
+
+  sync_configs:
+    cmds:
+      - rsync --archive {{.DL_FOLDER}}/game/citadel/cfg/* ./game
