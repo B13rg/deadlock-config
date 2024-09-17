@@ -1,0 +1,13 @@
+"config"
+{
+	"convars"
+	{
+		"cl_interp_ratio"	"1"
+		"cl_updaterate"		"128"
+		"rate"		"196608"
+		"sv_parallel_checktransmit" "2"
+		"r_add_views_in_pre_output"		"1"
+		"lb_csm_override_bulb_radius" "128"
+		"r_texture_budget_threshold" "0.80"
+	}
+}

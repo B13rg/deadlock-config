@@ -1,0 +1,7 @@
+version: '3'
+
+# Taskfile.dev
+
+
+vars:
+  DL_FOLDER: '/mnt/volute/SteamLibrary/steamapps/common/Deadlock/game/citadel/cfg'
