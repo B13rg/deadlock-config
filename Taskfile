@@ -5,3 +5,10 @@ version: '3'
 
 vars:
   DL_FOLDER: '/mnt/volute/SteamLibrary/steamapps/common/Deadlock/game/citadel/cfg'
+
+
+tasks:
+
+  get_all_vars:
+  cmds:
+    - "echo 'Run in game: cvarlist'"
