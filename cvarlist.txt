@@ -669,7 +669,7 @@
 [Console] collect_entity_model_name                                                        : cmd              : sv, cheat                        : Collect model names of the entities you're pointing at
 [Console] commentary                                                                       : false            : sv, a                            : Desired commentary mode state.
 [Console] commentary_finishnode                                                            : cmd              : sv                               : 
-[Console] con_enable                                                                       : false            : a, per_user                      : Allows the console to be activated.
+[Console] con_enable                                                                       : false             : a, per_user                     : Allows the console to be activated.
 [Console] condump                                                                          : cmd              : release                          : dump the text currently in the console to condumpXX.log
 [Console] connect                                                                          : cmd              : release                          : Connect to a remote server.
 [Console] connect_hltv                                                                     : cmd              : release                          : Connect to a remote HLTV server.

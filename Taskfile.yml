@@ -12,6 +12,10 @@ tasks:
   get_all_vars:
     cmds:
     - "echo 'Run in game: cvarlist'"
+    - "con_logfile $(pwd)/filename.txt; cvarlist; con_logfile ''"
+
+  get_vars_modifiers:
+    - modifier_dump_list
 
   create_tree:
     cmds:
