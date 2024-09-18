@@ -25,3 +25,4 @@ Retrieved by running `modifier_dump_list`
 * [raimannma/deadlock-assets-api](https://github.com/raimannma/deadlock-assets-api)
 * [deadlock-wiki/deadbot](https://github.com/deadlock-wiki/deadbot)
 * [Deadlock wiki](https://deadlocked.wiki/)
+* [/r/DeadlockTheGame](https://www.reddit.com/r/DeadlockTheGame/)
